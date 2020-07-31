@@ -1,0 +1,134 @@
+/* Fonts
+   ========================================================================== */
+
+@font-face {
+  font-family: "SF Pro Text";
+  font-weight: 900;
+  src: url("../fonts/SFProText-Bold.eot") format("eot"),
+    url("../fonts/SFProText-Bold.woff") format("woff"),
+    url("../fonts/SFProText-Bold.woff2") format("woff"),
+    url("../fonts/SFProText-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SF Pro Text";
+  font-weight: 800;
+  src: url("../fonts/SFProText-Semibold.eot") format("eot"),
+    url("../fonts/SFProText-Semibold.woff") format("woff"),
+    url("../fonts/SFProText-Semibold.woff2") format("woff"),
+    url("../fonts/SFProText-Semibold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  font-weight: 700;
+  src: url("../fonts/SFProText-Medium.eot") format("eot"),
+    url("../fonts/SFProText-Medium.woff") format("woff"),
+    url("../fonts/SFProText-Medium.woff2") format("woff"),
+    url("../fonts/SFProText-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  src: url("../fonts/SFProText-Regular.eot") format("eot"),
+    url("../fonts/SFProText-Regular.woff") format("woff"),
+    url("../fonts/SFProText-Regular.woff2") format("woff"),
+    url("../fonts/SFProText-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  src: url("../fonts/SFProText-Light.eot") format("eot"),
+    url("../fonts/SFProText-Light.woff") format("woff"),
+    url("../fonts/SFProText-Light.woff2") format("woff"),
+    url("../fonts/SFProText-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  font-weight: 900;
+  src: url("../fonts/SFProDisplay-Bold.eot") format("eot"),
+    url("../fonts/SFProDisplay-Bold.woff") format("woff"),
+    url("../fonts/SFProDisplay-Bold.woff2") format("woff"),
+    url("../fonts/SFProDisplay-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SF Pro Display";
+  font-weight: 800;
+  src: url("../fonts/SFProDisplay-Semibold.eot") format("eot"),
+    url("../fonts/SFProDisplay-BoSemiboldld.woff") format("woff"),
+    url("../fonts/SFProDisplay-Semibold.woff2") format("woff"),
+    url("../fonts/SFProDisplay-Semibold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  font-weight: 700;
+  src: url("../fonts/SFProDisplay-Regular.eot") format("eot"),
+    url("../fonts/SFProDisplay-Regular.woff") format("woff"),
+    url("../fonts/SFProDisplay-Regular.woff2") format("woff"),
+    url("../fonts/SFProDisplay-Regular.ttf") format("truetype");
+}
+
+body {
+  color: white;
+  font-family: "SF Pro Text", "SF Pro Display", "Arial";
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "SF Pro Display";
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+button {
+  background: white;
+  font-weight: 800;
+  border: none;
+  border-radius: 4px;
+  height: 48px;
+  margin-bottom: 24px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.banner-container {
+  background: url("../imgs/katabasis-website-background-lg-min.png");
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner-container .row {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("../imgs/katabasis-website-gradient-background-lg-min.png");
+  background-size: cover;
+  background-position: center;
+}
