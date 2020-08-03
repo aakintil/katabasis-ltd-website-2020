@@ -86,6 +86,10 @@
     padding: 24px;
     width: 350px;
   }
+
+  .cta-bottom-row button {
+      width: 50%; 
+  }
 }
 
 @media (min-width: 1600px) {
