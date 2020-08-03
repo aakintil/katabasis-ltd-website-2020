@@ -147,6 +147,10 @@ button:hover {
   text-align: center;
 }
 
+.content-container > h4:nth-child(1) {
+  margin-top: 24px;
+}
+
 .content-container {
   display: flex;
   padding: 40px;
@@ -196,7 +200,11 @@ button:hover {
   color: #0bc584;
 }
 
-.our-services-row,
+.our-work-row, 
+.our-services-row {
+  margin-bottom: 48px;
+}
+
 .cta-bottom-row {
   margin-bottom: 40px;
 }
