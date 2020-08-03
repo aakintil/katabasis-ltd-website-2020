@@ -69,6 +69,10 @@
     align-items: center;
     justify-content: space-between;
   }
+  .our-team-row {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -88,32 +92,31 @@
   }
 
   .cta-bottom-row button {
-      width: 50%; 
+    width: 50%;
   }
 }
 
 @media (min-width: 1600px) {
-    .hero-row h1 {
-      font-size: 156px;
-      line-height: 180px;
-    }
-
-    .banner-container,
-    .content-container {
-      padding: 140px 200px;
-    }
-  
-  
-    .card {
-      background: rgba(255, 255, 255, 0.2);
-      padding: 24px;
-      width: 350px;
-    }
+  .hero-row h1 {
+    font-size: 156px;
+    line-height: 180px;
   }
 
-  @media (min-width: 1700px) {
-    .banner-container,
-    .content-container {
-      padding: 140px 250px;
-    }
+  .banner-container,
+  .content-container {
+    padding: 140px 200px;
   }
+
+  .card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 24px;
+    width: 350px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .banner-container,
+  .content-container {
+    padding: 140px 250px;
+  }
+}
