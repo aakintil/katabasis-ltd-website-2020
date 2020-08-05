@@ -73,12 +73,20 @@
     display: flex;
     justify-content: space-evenly;
   }
+
+  h4 {
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width: 1200px) {
   .hero-row h1 {
     font-size: 124px;
     line-height: 180px;
+  }
+
+  h4 {
+    font-size: 48px;
   }
 
   .banner-container,
@@ -117,6 +125,6 @@
 @media (min-width: 1700px) {
   .banner-container,
   .content-container {
-    padding: 140px 250px;
+    padding: 140px 300px;
   }
 }

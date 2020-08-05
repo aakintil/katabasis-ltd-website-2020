@@ -1,97 +1,39 @@
 /* Fonts
    ========================================================================== */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-@font-face {
-  font-family: "SF Pro Text";
-  font-weight: 900;
-  src: url("../fonts/SFProText-Bold.eot") format("eot"),
-    url("../fonts/SFProText-Bold.woff") format("woff"),
-    url("../fonts/SFProText-Bold.woff2") format("woff"),
-    url("../fonts/SFProText-Bold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "SF Pro Text";
-  font-weight: 800;
-  src: url("../fonts/SFProText-Semibold.eot") format("eot"),
-    url("../fonts/SFProText-Semibold.woff") format("woff"),
-    url("../fonts/SFProText-Semibold.woff2") format("woff"),
-    url("../fonts/SFProText-Semibold.ttf") format("truetype");
-}
+/* 
+100 thin
+200 extra light
+300 light
+400 regular 
+500 medium 
+600 semi bold 
+700 bold 
+800 extra bold
+900 black
 
-@font-face {
-  font-family: "SF Pro Text";
-  font-weight: 700;
-  src: url("../fonts/SFProText-Medium.eot") format("eot"),
-    url("../fonts/SFProText-Medium.woff") format("woff"),
-    url("../fonts/SFProText-Medium.woff2") format("woff"),
-    url("../fonts/SFProText-Medium.ttf") format("truetype");
-}
-@font-face {
-  font-family: "SF Pro Text";
-  font-weight: 600;
-  src: url("../fonts/SFProText-Regular.eot") format("eot"),
-    url("../fonts/SFProText-Regular.woff") format("woff"),
-    url("../fonts/SFProText-Regular.woff2") format("woff"),
-    url("../fonts/SFProText-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "SF Pro Text";
-  font-weight: 500;
-  src: url("../fonts/SFProText-Light.eot") format("eot"),
-    url("../fonts/SFProText-Light.woff") format("woff"),
-    url("../fonts/SFProText-Light.woff2") format("woff"),
-    url("../fonts/SFProText-Light.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "SF Pro Display";
-  font-weight: 900;
-  src: url("../fonts/SFProDisplay-Bold.eot") format("eot"),
-    url("../fonts/SFProDisplay-Bold.woff") format("woff"),
-    url("../fonts/SFProDisplay-Bold.woff2") format("woff"),
-    url("../fonts/SFProDisplay-Bold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "SF Pro Display";
-  font-weight: 800;
-  src: url("../fonts/SFProDisplay-Semibold.eot") format("eot"),
-    url("../fonts/SFProDisplay-BoSemiboldld.woff") format("woff"),
-    url("../fonts/SFProDisplay-Semibold.woff2") format("woff"),
-    url("../fonts/SFProDisplay-Semibold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "SF Pro Display";
-  font-weight: 700;
-  src: url("../fonts/SFProDisplay-Regular.eot") format("eot"),
-    url("../fonts/SFProDisplay-Regular.woff") format("woff"),
-    url("../fonts/SFProDisplay-Regular.woff2") format("woff"),
-    url("../fonts/SFProDisplay-Regular.ttf") format("truetype");
-}
-
+*/
 body {
   color: white;
-  font-family: "SF Pro Text", "SF Pro Display", "Arial";
+  font-family: "Work Sans", sans-serif;
 }
 
 h1 {
   font-size: 40px;
-  font-family: "SF Pro Display";
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 0.5px;
 }
 
 h3 {
   font-size: 16px;
-  font-weight: 900;
+  font-weight: 500;
   letter-spacing: -0.5px;
 }
 
 h4 {
-  font-family: "SF Pro Display";
-  font-weight: 900;
-  letter-spacing: 0.5px;
+  font-weight: 500;
+  letter-spacing: -1px;
   font-size: 32px;
   text-transform: capitalize;
   text-align: center;
@@ -104,20 +46,19 @@ h4 {
 
 p {
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 a {
   text-decoration: none;
   color: white;
-  font-family: "SF Pro Text";
-  font-weight: 800;
+  font-weight: 600;
   font-size: 16px;
 }
 
 button {
   background: white;
-  font-weight: 800;
+  font-weight: 600;
   border: none;
   border-radius: 4px;
   height: 48px;
@@ -166,22 +107,22 @@ button:hover {
   display: flex;
   flex-direction: column;
   margin-bottom: 32px;
-  background: rgba(255,255,255,0.2); 
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 8px;
   padding: 24px;
 }
 
 .card .title {
   font-size: 24px;
-  font-weight: 800;
-  letter-spacing: -0.75px;
+  font-weight: 500;
+  letter-spacing: -0.25px;
   margin-bottom: 8px;
 }
 
 .card .desc {
   font-size: 16px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: -0.5px;
   margin-bottom: 8px;
 }
@@ -200,7 +141,7 @@ button:hover {
   color: #0bc584;
 }
 
-.our-work-row, 
+.our-work-row,
 .our-services-row,
 .our-team-row {
   margin-bottom: 48px;
@@ -212,4 +153,16 @@ button:hover {
 
 .footer-row {
   margin-top: 56px;
+}
+
+.photo-container {
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  margin-bottom: 8px;
 }
