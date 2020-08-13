@@ -13,6 +13,12 @@
     display: flex;
     justify-content: space-between;
   }
+  .banner-container .logo-row {
+    flex-direction: column;
+  }
+  .logo-row img {
+    width: 150px; 
+  }
   .btn-primary {
     margin: 0; 
   }

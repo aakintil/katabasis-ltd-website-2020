@@ -216,3 +216,11 @@ button:hover {
   margin: 0 auto;
   margin-bottom: 8px;
 }
+
+.banner-container .logo-row {
+  flex-direction: row;
+}
+
+.logo-row img {
+  width: 100px; 
+}
