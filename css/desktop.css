@@ -1,143 +1,21 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .banner-container,
-  .content-container {
-    padding: 80px 224px;
-  }
+
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .banner-container {
-    min-height: 930px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .banner-container .logo-row {
-    flex-direction: column;
-  }
-  .logo-row img {
-    width: 150px; 
-  }
-  .btn-primary {
-    margin: 0; 
-  }
-  .btn-secondary {
-    max-width: 50%; 
-  }
-
-  .banner-container,
-  .content-container {
-    padding: 80px 110px;
-  }
-
-  .banner-container .row {
-    align-items: flex-start;
-    text-align: left;
-  }
-
-  .hero-row h1 {
-    font-size: 102px;
-    line-height: 110px;
-  }
-
-  .mantra-row h3 {
-    font-size: 24px;
-  }
-
-  .banner-container .cta-row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 0;
-  }
-
-  .banner-container .cta-row p {
-    margin-left: 48px;
-  }
-
-  .banner-container button {
-    width: 65%;
-  }
-
-  .banner-container .cta-row button {
-    margin-bottom: 0;
-  }
-
-  .our-work-row,
-  .our-services-row {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .card {
-    background: none;
-    padding: 8px;
-    width: 250px;
-  }
-
-  .cta-bottom-row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .our-team-row {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  h4 {
-    margin-bottom: 16px;
-  }
+  
 }
 
 @media (min-width: 1200px) {
-  .hero-row h1 {
-    font-size: 124px;
-    line-height: 180px;
-  }
-
-  h4 {
-    font-size: 48px;
-  }
-
-  .banner-container,
-  .content-container {
-    padding: 140px 180px;
-  }
-
-  .card {
-    padding: 24px;
-    width: 350px;
-  }
-
-  .cta-bottom-row button {
-    width: 50%;
-  }
+ 
 }
 
 @media (min-width: 1600px) {
-  .hero-row h1 {
-    font-size: 156px;
-    line-height: 180px;
-  }
-
-  .banner-container,
-  .content-container {
-    padding: 140px 200px;
-  }
-
-  .card {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 24px;
-    width: 350px;
-  }
+ 
 }
 
 @media (min-width: 1700px) {
-  .banner-container,
-  .content-container {
-    padding: 140px 300px;
-  }
+
 }
