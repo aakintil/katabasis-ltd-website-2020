@@ -19,6 +19,8 @@ body {
 
 .section {
   padding: 72px 20px; 
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-container {
@@ -99,4 +101,12 @@ p {
 
 .text {
   color: #0774C0;
+}
+
+.no-pad-top {
+  padding-top: 0; 
+}
+
+.process-container {
+
 }
