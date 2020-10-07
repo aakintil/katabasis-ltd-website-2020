@@ -17,14 +17,21 @@ body {
   font-family: 'Source Serif Pro', serif;
 }
 
+.section {
+  padding: 72px 20px; 
+}
+
 .hero-container {
   background: #1D9DF7; 
   height: auto; 
-  padding: 72px 20px; 
 }
 
 .mg-btm-48 {
   margin-bottom: 48px;
+}
+
+.mg-btm-24 {
+  margin-bottom: 24px;
 }
 
 .navbar {
@@ -56,7 +63,8 @@ body {
 .primary-btn {
   background: #FF8833; 
   height: 56px; 
-  width: 320px;
+  width: 100%;
+  min-width: 320px;
   border: none;
 }
 
@@ -67,8 +75,28 @@ h1 {
   line-height: 56px;
 }
 
+h3 {
+  font-size: 32px;
+  line-height: 40px;
+  color: #0774C0;
+  letter-spacing: -0.5px;  
+}
+
 h4 {
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
+}
+
+p {
+  font-size: 16px; 
+  font-weight: 300;
+}
+.caption {
+  font-style: italic;
+  color: white;
+}
+
+.text {
+  color: #0774C0;
 }
