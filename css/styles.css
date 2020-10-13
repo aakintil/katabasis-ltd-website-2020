@@ -14,18 +14,18 @@
 */
 body {
   color: white;
-  font-family: 'Source Serif Pro', serif;
+  font-family: "Source Serif Pro", serif;
 }
 
 .section {
-  padding: 72px 20px; 
+  padding: 72px 20px;
   display: flex;
   flex-direction: column;
 }
 
 .hero-container {
-  background: #1D9DF7; 
-  height: auto; 
+  background: #1d9df7;
+  height: auto;
 }
 
 .mg-btm-48 {
@@ -37,7 +37,7 @@ body {
 }
 
 .navbar {
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   align-items: center;
   height: 40px;
@@ -45,8 +45,8 @@ body {
 
 .btn {
   border-radius: 4px;
-  color: white; 
-  font-size: 16px; 
+  color: white;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -56,15 +56,15 @@ body {
 }
 
 .secondary-btn {
-  border: 1.5px solid white; 
-  background: #1D9DF7; 
-  height: 40px; 
+  border: 1.5px solid white;
+  background: #1d9df7;
+  height: 40px;
   width: 148px;
 }
 
 .primary-btn {
-  background: #FF8833; 
-  height: 56px; 
+  background: #ff8833;
+  height: 56px;
   width: 100%;
   min-width: 320px;
   border: none;
@@ -72,7 +72,7 @@ body {
 
 h1 {
   font-size: 48px;
-  color: white; 
+  color: white;
   letter-spacing: -1px;
   line-height: 56px;
 }
@@ -80,8 +80,8 @@ h1 {
 h3 {
   font-size: 32px;
   line-height: 40px;
-  color: #0774C0;
-  letter-spacing: -0.5px;  
+  color: #0774c0;
+  letter-spacing: -0.5px;
 }
 
 h4 {
@@ -91,7 +91,7 @@ h4 {
 }
 
 p {
-  font-size: 16px; 
+  font-size: 16px;
   font-weight: 300;
 }
 .caption {
@@ -100,13 +100,14 @@ p {
 }
 
 .text {
-  color: #0774C0;
+  color: #0774c0;
 }
 
 .no-pad-top {
-  padding-top: 0; 
+  padding-top: 0;
 }
 
-.process-container {
-
+.process-container img, 
+.services-container img {
+  width: 100%;
 }

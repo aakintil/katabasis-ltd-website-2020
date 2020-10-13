@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="290px" viewBox="0 0 320 290" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 7 Copy</title>
+    <g id="website-update" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Android" transform="translate(-20.000000, -3771.000000)">
+            <g id="Group-7-Copy" transform="translate(20.000000, 3771.000000)">
+                <rect id="Rectangle-Copy-5" stroke="#E1F2FE" stroke-width="0.998613037" fill="#FFFFFF" x="0.499306519" y="0.499306519" width="318.907943" height="289.001387" rx="3.95123551"></rect>
+                <g id="Group-12-Copy" transform="translate(32.052176, 30.451400)">
+                    <text id="User-Experience-Prod" font-family="SourceSerifPro-Regular, Source Serif Pro" font-size="16" font-weight="normal" line-spacing="24" letter-spacing="-0.250000006" fill="#0774C0">
+                        <tspan x="3.49299729" y="146.5486">User Experience</tspan>
+                        <tspan x="3.49299729" y="170.5486">Product Launch</tspan>
+                        <tspan x="3.49299729" y="194.5486">Systems Architecture</tspan>
+                        <tspan x="3.49299729" y="218.5486">Product Management</tspan>
+                    </text>
+                    <text id="Product-advice" transform="translate(125.944718, 100.122435) rotate(0.200000) translate(-125.944718, -100.122435) " font-family="SourceSerifPro-Semibold, Source Serif Pro" font-size="24" font-weight="500" line-spacing="47.9334258" fill="#0774C0">
+                        <tspan x="3.51134477" y="107.622435">Product advice</tspan>
+                    </text>
+                    <g id="noun_pc-monitor_3017255" transform="translate(0.947824, 0.548600)" fill="#1D9DF7" fill-rule="nonzero">
+                        <path d="M71.9782609,0 L5.02173913,0 C2.24830919,0 0,2.24976913 0,5.025 L0,50.25 C0,53.0252309 2.24830919,55.275 5.02173913,55.275 L27.6195652,55.275 L27.6195652,57.7875 L22.1626087,64.23625 C21.7378876,64.7331264 21.640925,65.431881 21.9142885,66.0257528 C22.187652,66.6196247 22.7813656,67 23.4347826,67 L53.5652174,67 C54.2186344,67 54.812348,66.6196247 55.0857115,66.0257528 C55.359075,65.431881 55.2621124,64.7331264 54.8373913,64.23625 L49.3804348,57.7875 L49.3804348,55.275 L71.9782609,55.275 C74.7516908,55.275 77,53.0252309 77,50.25 L77,5.025 C77,2.24976913 74.7516908,0 71.9782609,0 Z M27.0504348,63.65 L29.896087,60.3 L47.103913,60.3 L49.9495652,63.65 L27.0504348,63.65 Z M46.0326087,56.95 L30.9673913,56.95 L30.9673913,55.275 L46.0326087,55.275 L46.0326087,56.95 Z M73.6521739,50.25 C73.6521739,51.175077 72.9027375,51.925 71.9782609,51.925 L5.02173913,51.925 C4.09726248,51.925 3.34782609,51.175077 3.34782609,50.25 L3.34782609,5.025 C3.34782609,4.09992304 4.09726248,3.35 5.02173913,3.35 L71.9782609,3.35 C72.9027375,3.35 73.6521739,4.09992304 73.6521739,5.025 L73.6521739,50.25 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
