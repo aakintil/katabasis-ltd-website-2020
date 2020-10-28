@@ -43,16 +43,34 @@ body {
   height: 40px;
 }
 
+.navbar img {
+  width: 70%; 
+}
+
 .btn {
   border-radius: 4px;
   color: white;
   font-size: 16px;
   font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  -webkit-transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -ms-transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out;
 }
 
 .btn:hover {
   cursor: pointer;
   opacity: 0.8;
+  -webkit-transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -ms-transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out;
 }
 
 .secondary-btn {
@@ -70,15 +88,24 @@ body {
   border: none;
 }
 
+.tertiary-btn {
+  background: white;
+  border: 1px solid #ff8833;
+  height: 56px;
+  width: 100%;
+  min-width: 320px;
+  color: #ff8833;
+}
+
 h1 {
-  font-size: 48px;
+  font-size: 32px;
   color: white;
-  letter-spacing: -1px;
-  line-height: 56px;
+  line-height: 40px;
+  font-weight: 700;
 }
 
 h3 {
-  font-size: 32px;
+  font-size: 24px;
   line-height: 40px;
   color: #0774c0;
   letter-spacing: -0.5px;
@@ -152,4 +179,24 @@ p {
 }
 .team-member-bio {
   padding: 24px; 
+}
+
+
+.referall-container .img-container {
+  overflow: hidden;
+  height: 300px;
+}
+
+.problem-desc {
+  display: flex;
+  flex-direction: column;
+}
+.problem-desc .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.problem-desc .img-container img {
+  width: 100%; 
 }
