@@ -44,7 +44,7 @@ body {
 }
 
 .navbar img {
-  width: 70%; 
+  width: 70%;
 }
 
 .btn {
@@ -56,21 +56,21 @@ body {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  -webkit-transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -ms-transition: opacity .25s ease-in-out;
-  -o-transition: opacity .25s ease-in-out;
-  transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -ms-transition: opacity 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
 }
 
 .btn:hover {
   cursor: pointer;
   opacity: 0.8;
-  -webkit-transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -ms-transition: opacity .25s ease-in-out;
-  -o-transition: opacity .25s ease-in-out;
-  transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -ms-transition: opacity 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
 }
 
 .secondary-btn {
@@ -137,6 +137,15 @@ p {
 .process-container img,
 .services-container img {
   width: 100%;
+  max-width: 300px;
+}
+
+.process-container .img-container, 
+.services-container .img-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .team-member {
@@ -145,8 +154,8 @@ p {
   align-items: center;
   overflow: hidden;
   margin-bottom: 24px;
-  color: #FF6A00;
-  border: 1px solid #FF6A00;
+  color: #ff6a00;
+  border: 1px solid #ff6a00;
   border-radius: 4px;
   text-decoration: none;
 }
@@ -166,21 +175,18 @@ p {
   font-weight: 600;
 }
 
-
 .team-member-img.trev {
   margin-left: 36px;
   margin-top: 100px;
 }
 
-
 .team-member-img.ade {
   margin-left: -36px;
-  margin-top: 180px; 
+  margin-top: 180px;
 }
 .team-member-bio {
-  padding: 24px; 
+  padding: 24px;
 }
-
 
 .referall-container .img-container {
   overflow: hidden;
@@ -198,5 +204,5 @@ p {
 }
 
 .problem-desc .img-container img {
-  width: 100%; 
+  width: 100%;
 }
